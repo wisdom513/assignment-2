@@ -1,0 +1,52 @@
+/** Nomalize your stylesheet**/
+*,
+*::before,
+*::after{
+    border-spacing: border-box;
+}
+html{
+    font-family: 'Times New Roman';
+    line-height: 1.5;
+}
+
+body{
+    background-image: url("assets/images/01287_iceplanet_1024x768.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    color: rgb(220, 220, 236);
+
+}
+main{
+    text-align: center;
+}
+
+#d a{
+    color: brown;
+    text-decoration: none;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 5rem;
+    text-shadow: 3px 2px 4px blueviolet;
+    
+    
+}
+
+.frame{
+    display: flex;
+    justify-content: space-between;
+    color: aqua;
+    font-size: 20px;
+    
+}
+
+#s1{
+    margin: 1rem;
+    padding-left: 9rem;
+    padding-right: -5rem;
+}
+
+#s2{
+    margin: 1rem;
+    padding-right: 9rem;
+    padding-left: -5rem;
+}
